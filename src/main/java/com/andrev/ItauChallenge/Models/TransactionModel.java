@@ -5,8 +5,9 @@ import java.time.OffsetDateTime;
 public class TransactionModel {
 
   @NotNull
-  private final Double value;
-  private final OffsetDateTime dateTime;
+  private  Double value;
+  @NotNull
+  private  OffsetDateTime dateTime;
 
   public TransactionModel(Double value, OffsetDateTime dateTime) {
     this.value = value;
